@@ -1,0 +1,9 @@
+/* adwaita-sans */
+@font-face {
+	font-family: "Adwaita Sans";
+	font-style: normal;
+	font-weight: 100 900;
+	font-stretch: 100%;
+	src: local("Adwaita Sans"), local("AdwaitaSans"), url(adwaita-sans.woff2) format("woff2");
+}
+

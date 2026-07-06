@@ -1,0 +1,396 @@
+/* ********** GLOBAL STYLES ********** */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'adwaita-sans', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: dodgerblue;
+    font-size: 1.12em;
+}
+
+a:hover {
+    color: orangered;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.12em;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 15px 5px rgba(141, 245, 255, 0.6);
+}
+
+/* ********** HEADER SECTION STYLES ********** */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: cennter;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+nav {
+    width: 50%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ********** HERO SECTION STYLES ********** */
+
+.hero-text {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text a {
+    color: red;
+}
+
+.hero-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-options {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.youtube {
+    padding: 15px 10px;
+    border: 2px solid red;
+    color: white;
+    font-weight: bold;
+}
+
+.continue {
+    padding: 15px 10px;
+    border: 2px solid green;
+    color: white;
+    font-weight: bold;
+}
+
+.continue:hover {
+    color: green;
+}
+
+/* ********** ABOUT SECTION STYLES ********** */
+
+#about {
+    width: 100%;
+    margin: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.about-img {
+    width: 50%;
+    padding: 20px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.about-text p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.about-text a {
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 2px solid dodgerblue;
+}
+
+/* ********** CONTACT SECTION STYLES ********** */
+
+.contact {
+    width: 100%;
+    margin: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.contact-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.contact-text p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.contact-text a {
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 2px solid dodgerblue;
+}
+
+.contact-img {
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-img img {
+    width: 100%;
+}
+
+/* ********** VIDEOS SECTION STYLES ********** */
+
+.videos {
+    width: 100%;
+    margin: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.videos-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.videos-text p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.videos-text a {
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 2px solid dodgerblue;
+}
+
+.videos-img {
+    width: 50%;
+    padding: 20px;
+}
+
+.videos-img img {
+    width: 100%;
+}
+
+/* ********** TESTIMONIALS SECTION STYLES ********** */
+
+.testimonials {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #111;
+}
+
+.box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.box img {
+    width: 20%;
+}
+
+/* ********** BLOG SECTION STYLES ********** */
+
+.blog {
+    width: 100%;
+    margin: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.blog-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.blog-text p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.blog-text a {
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 2px solid dodgerblue;
+}
+
+.blog-img {
+    width: 50%;
+    padding: 20px;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+/* ********** TAGS SECTION STYLES ********** */
+
+.tags {
+    width: 100%;
+    margin: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.tags-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.tags-text p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.tags-text a {
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 2px solid dodgerblue;
+}
+
+.tags-img {
+    width: 50%;
+    padding: 20px;
+}
+
+.tags-img img {
+    width: 100%;
+}
+
+/* ********** ARCHIVES SECTION STYLES ********** */
+
+.archives {
+    width: 100%;
+    margin: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.archives-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.archives-text p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.archives-text a {
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 2px solid dodgerblue;
+}
+
+.archives-img {
+    width: 50%;
+    padding: 20px;
+}
+
+.archives-img img {
+    width: 100%;
+}
+
+/* ********** FOOTER SECTION STYLES ********** */
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #111;
+}
+
+.name {
+    width: 50%;
+}
+
+.name a {
+    text-decoration: none;
+}
+
+.links {
+    width: 50%;
+}
+
+.links h2 {
+    padding-left: 40px;
+}
+
+.links ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
