@@ -189,6 +189,25 @@ nav ul {
     width: 100%;
 }
 
+/* ********** CONTACT FORM STYLES ********** */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.formbtn {
+    width: 230px;
+}
+
 /* ********** VIDEOS SECTION STYLES ********** */
 
 .videos {
