@@ -20,6 +20,11 @@ p {
     font-size: 1.12em;
 }
 
+ul {
+    font-size: 1.12em;
+    line-height: 1.15;
+}
+
 .container {
     max-width: 1250px;
     margin: 0 auto;
@@ -51,7 +56,6 @@ header {
 nav {
     width: 50%;
     font-weight: bold;
-    font-size: 1.2em;
 }
 
 nav ul {
