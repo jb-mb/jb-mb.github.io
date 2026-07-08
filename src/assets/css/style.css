@@ -245,6 +245,56 @@ input, textarea {
     width: 100%;
 }
 
+/* ********** VIDEO CARD SECTION STYLES ********** */
+
+.video-item {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.video-thumbnail {
+    width: 25%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.video-thumbnail img {
+    width: 50%;
+}
+
+.video-info {
+    width: 75%;
+    /* border: 1px solid white; */
+}
+
+.video-info {
+    padding: 0;
+    margin: 0;
+}
+
+.video-title h3 {
+    padding: 5px 0;
+    margin: 0;
+}
+
+.video-title p, .video title a {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
 /* ********** TESTIMONIALS SECTION STYLES ********** */
 
 .testimonials {
@@ -390,30 +440,17 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: #111;
 }
 
 .name {
     width: 50%;
 }
 
-.name a {
-    text-decoration: none;
-}
-
 .links {
     width: 50%;
 }
 
-.links h2 {
-    padding-left: 40px;
-}
-
-.links ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 25px;
+.links p a {
+    padding: 0 5px;
+    font-weight: bold;
 }
