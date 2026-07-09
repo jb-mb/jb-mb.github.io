@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link href="fonts/adwaita-sans/adwaita-sans.css" rel="stylesheet">
     <link href="fonts/ubuntu/ubuntu.css" rel="stylesheet">
-    <title>Matching Brackets {{ title or "Home" }}</title>
+    <title>Matching Brackets Home</title>
 </head>
 <body>
 
@@ -26,15 +26,20 @@
                 <li><a href="/about/">About</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/videos/">Videos</a></li>
-                <li><a href="/blog/">Blog</a></li>
-                <li><a href="/tags/">Tags</a></li>
-                <li><a href="/archives/">Archives</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="tags">Tags</a></li>
+                <li><a href="#">Archives</a></li>
             </ul>
         </nav>
 
     </header>
 
-    {{ content | safe }}
+    <h1>Posts tagged: Beginner</h1>
+<ul>
+<li>
+<a href="/blog/first-post/">My First Blog Post</a>
+</li>
+</ul>
 
     <footer>
         <div class="name">
@@ -51,9 +56,9 @@
                 <a href="/about/">About</a>                
                 <a href="/contact/">Contact</a>
                 <a href="/videos/">Videos</a>
-                <a href="/blog/">Blog</a>
+                <a href="#">Blog</a>
                 <a href="/tags/">Tags</a>
-                <a href="/archives/">Archives</a>
+                <a href="#">Archives</a>
             </p>
             <p>
                 <a href="https://bsky.app/profile/matchingbrackeets.bsky.social" target="_blank">Bluesky</a>
