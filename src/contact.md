@@ -7,13 +7,15 @@ title: Contact
     <img src="/assets/img/abstract.jpg" style="width: 100%; height: 300px; background-position: cover; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
 </div>
 
-# Contact
+## Contact
 
 I'd love to hear from you!
 
 Whether you have a question, a suggestion for a future video, or just want to say hello, feel free to get in touch.
 
 ## Email
+
+Filling out the form that follows will end up in my email. Please be sure to include your Name. your Email Address, and a Message if you'd like me to get back to you. I'm sorry, I'm not set up to do Linux troubleshooting at the moment. Those inquiries will be ignored.
 
 <form
   action="https://formspree.io/f/meebwebz"
@@ -25,7 +27,7 @@ Whether you have a question, a suggestion for a future video, or just want to sa
     <input type="text" name="name" required>
   </label>
   <label>
-    Your Email: <br>
+    Your Email Address: <br>
     <input type="email" name="email" required>
   </label>
   <label>
@@ -38,20 +40,20 @@ Whether you have a question, a suggestion for a future video, or just want to sa
 
 ## YouTube
 
-Visit the <a href="https://www.youtube.com/@MatchingBrackets" target="_blank">Matching Brackets YouTube channel</a>. You can comment on any of my videos. I try very hard to answer viewer's comments. 
+Visit the <a href="https://www.youtube.com/@MatchingBrackets" target="_blank">Matching Brackets YouTube channel</a>. You can comment on any of my videos. I try very hard to answer everyone's comments. 
 
 ## Bluesky
 
-I'll be brutally honest, I haven't been very present on <a href="https://bsky.app/profile/matchingbrackeets.bsky.social" target="_blank">Bluesky</a>, but from now on this will change. Feel free to send me a message over there. 
+I'll be brutally honest, I haven't been very present on <a href="https://bsky.app/profile/matchingbrackeets.bsky.social" target="_blank">Bluesky</a> in the past, but from now on this will change. If you'd like, join, follow, and feel free to send me a message over there. 
 
 ## Mastodon
 
-Again, I've been neglecting my <a href="https://techhub.social/@matchingbrackets" target="_blank">Mastodon</a> account as well. But from now on this will change. Feel free to send me a message on Mastodon. 
+Again, I've been neglecting my <a href="https://techhub.social/@matchingbrackets" target="_blank">Mastodon</a> account as well. But from now on this will change. If you'd like, join, follow, and feel free to send me a message over there. 
 
 ## Reddit
 
-Jeez, I'm terrible at social media. I've been way too busy making videos for the channel. But I'll spend more time on social media, I promise. You'll be able to reach me on <a href="https://www.reddit.com/user/MatchingBrackets/" target="_blank">Reddit</a>. 
+And it's the same, I'm afraid, for my account on Reddit. But I'll spend more time on social media, I promise. If you'd like, join, follow, and feel free to send me a message over there om  <a href="https://www.reddit.com/user/MatchingBrackets/" target="_blank">Reddit</a>. 
 
 ## GitHub
 
-Ah, you've found my secret laboratory! Welcome. <a href="https://github.com/jb-mb" target="_blank">GitHub</a> is where I publish our website for now, and where I include things like our business plan, and things that you're free to download for yourself. 
+Ah, you've found my secret laboratory! No, I'm being silly. On <a href="https://github.com/jb-mb" target="_blank">GitHub</a> is where I publish our website for now, and where I include things like our business plan, and I hope to share some other goodies with you all pretty soon. If you'd like, join, follow, and feel free to send me a message over there.

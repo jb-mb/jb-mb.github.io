@@ -7,7 +7,7 @@ title: Tags
     <img src="/assets/img/abstract.jpg" style="width: 100%; height: 300px; background-position: center; background-repeat: no-repeat; background-size: cover;">
 </div>
 
-# Tags
+## Tags
 
 <ul>
 

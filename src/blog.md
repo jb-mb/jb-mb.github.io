@@ -7,7 +7,7 @@ title: Blog
     <img src="/assets/img/abstract.jpg" style="width: 100%; height: 300px; background-position: center; background-repeat: no-repeat; background-size: cover;">
 </div>
 
-# Blog
+## Blog
 
 {% assign posts = collections.all | sort: "date" | reverse %}
 
@@ -19,7 +19,7 @@ title: Blog
 
 <li>
     <a href="{{ post.url }}">{{ post.data.title }}</a>
-    <br>
+    &mdash;
     {{ post.date | date: "%B %d, %Y" }}
 </li>
 
