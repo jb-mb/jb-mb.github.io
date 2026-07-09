@@ -3,6 +3,10 @@ layout: layouts/base.njk
 title: Videos
 ---
 
+<div align="center">
+    <img src="/assets/img/abstract.jpg" style="width: 100%; height: 300px; background-position: cover; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+</div>
+
 <h2>Videos</h2>
 
 {% for video in videos %}
