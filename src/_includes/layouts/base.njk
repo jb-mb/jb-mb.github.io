@@ -36,6 +36,10 @@
 
     {{ content | safe }}
 
+    {% if tags and ("posts" in tags) %}
+        {% include "giscus.njk" %}
+    {% endif %}
+
     <footer>
         <div class="name">
             <a href="/"  style="text-decoration: none;"><h1>
