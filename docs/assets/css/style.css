@@ -201,7 +201,8 @@ form {
     gap: 20px;
 }
 
-input, textarea {
+input,
+textarea {
     margin-top: 5px;
     padding: 5px;
 }
@@ -290,7 +291,8 @@ input, textarea {
     margin: 0;
 }
 
-.video-title p, .video title a {
+.video-title p,
+.video title a {
     padding: 0;
     margin: 0;
 }
@@ -359,6 +361,12 @@ input, textarea {
 
 .blog-img img {
     width: 100%;
+}
+
+/* ********** BLOG IMAGES IN ARTICLES STYLES ********** */
+
+.blogimg {
+    width: 50%;
 }
 
 /* ********** TAGS SECTION STYLES ********** */
