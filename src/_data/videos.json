@@ -1,6 +1,12 @@
 [
   {
-    "title": "Why People Give Up on Linux, and Why That’s Okay",
+    "title": "Behind The Distro: Free and Open Source Software",
+    "thumbnail": "/assets/thumbnails/20260731.jpg",
+    "description": "Welcome to the very first episode of Behind the Distro, a new series on Matching Brackets where we explore the people, projects, and ideas behind the Linux distributions we use every day. Before we dive into Linux Mint, Debian, Fedora, Arch Linux, and many other distributions, we need to answer one important question: What is Free and Open Source Software (FOSS)?",
+    "url": "https://youtu.be/lJVzXoUSDk4"
+  },
+  {
+    "title": "Why People Give Up on Linux, and Why That's Okay",
     "thumbnail": "/assets/thumbnails/20260724.jpg",
     "description": "If you've ever tried Linux, gotten frustrated, and gone back to Windows... this video is for you. One of the biggest misconceptions about Linux is that it's easy. While that's certainly true for many experienced Linux users, it can feel very different if you're installing Linux for the first time or trying to learn unfamiliar tools and terminology..",
     "url": "https://youtu.be/bqfpKc9OLmE"
