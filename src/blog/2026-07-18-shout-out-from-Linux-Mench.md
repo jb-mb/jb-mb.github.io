@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/post.njk
 title: We've got a shout-out from another YouTube Channel
 date: 2026-07-18
 tags:
