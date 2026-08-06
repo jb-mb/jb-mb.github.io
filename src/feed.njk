@@ -1,0 +1,27 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+<title>Matching Brackets</title>
+<link href="https://jb-mb.github.io/"/>
+<id>https://jb-mb.github.io/</id>
+
+{% for post in collections.posts %}
+
+<entry>
+
+<title>{{ post.data.title }}</title>
+
+<link href="https://jb-mb.github.io{{ post.url }}"/>
+
+<id>https://jb-mb.github.io{{ post.url }}</id>
+
+<updated>{{ post.date | dateToRfc3339 }}</updated>
+</entry>
+
+{% endfor %}
+
+</feed>

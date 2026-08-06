@@ -1,0 +1,36 @@
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+<title>Matching Brackets</title>
+<link href="https://jb-mb.github.io/"/>
+<id>https://jb-mb.github.io/</id>
+
+
+
+<entry>
+
+<title>We&#39;ve got a shout-out from another YouTube Channel</title>
+
+<link href="https://jb-mb.github.io/blog/2026-07-18-shout-out-from-Linux-Mench/"/>
+
+<id>https://jb-mb.github.io/blog/2026-07-18-shout-out-from-Linux-Mench/</id>
+
+<updated>2026-07-18T00:00:00Z</updated>
+</entry>
+
+
+
+<entry>
+
+<title>12 Questions Every First Time Linux User Has</title>
+
+<link href="https://jb-mb.github.io/blog/2026-07-21-12-questions-every-first-time-Linux-user-has/"/>
+
+<id>https://jb-mb.github.io/blog/2026-07-21-12-questions-every-first-time-Linux-user-has/</id>
+
+<updated>2026-07-21T00:00:00Z</updated>
+</entry>
+
+
+
+</feed>

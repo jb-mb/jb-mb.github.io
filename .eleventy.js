@@ -1,7 +1,10 @@
+const { dateToRfc3339 } = require("@11ty/eleventy-plugin-rss");
+
 module.exports = function (eleventyConfig) {
 
-  // Copy CSS, images, JS directly to output
   eleventyConfig.addPassthroughCopy("src/assets");
+
+  eleventyConfig.addFilter("dateToRfc3339", dateToRfc3339);
 
   return {
     dir: {
@@ -9,4 +12,5 @@ module.exports = function (eleventyConfig) {
       output: "docs"
     }
   };
+
 };
