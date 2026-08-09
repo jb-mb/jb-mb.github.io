@@ -1,5 +1,11 @@
 [
   {
+    "title": "Introducing matchingbrackets.com - The New Website For Matching Brackets",
+    "thumbnail": "/assets/thumbnails/20260807.webp",
+    "description": "Introducing matchingbrackets.com. The New Website for Matching Brackets. In this video, I'll take you on a tour of the new site, show you what's already available, explain why I built it the way I did, and share some of my plans for the future.",
+    "url": "https://youtu.be/R5g8OMFpotU"
+  },
+  {
     "title": "Behind The Distro: Free and Open Source Software",
     "thumbnail": "/assets/thumbnails/20260731.jpg",
     "description": "Welcome to the very first episode of Behind the Distro, a new series on Matching Brackets where we explore the people, projects, and ideas behind the Linux distributions we use every day. Before we dive into Linux Mint, Debian, Fedora, Arch Linux, and many other distributions, we need to answer one important question: What is Free and Open Source Software (FOSS)?",
