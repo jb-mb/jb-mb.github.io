@@ -1,5 +1,11 @@
 [
   {
+    "title": "How to Create Windows Installation Media (Step-by-Step)",
+    "thumbnail": "/assets/thumbnails/20260814.jpg",
+    "description": "In this video, I'll show you how to create Windows installation media using Microsoft's Media Creation Tool. It's all well and good to talk about Linux, but what happens when things go wrong? What happens if there's some piece of hardware preventing you to switch?",
+    "url": "https://youtu.be/wrhyGR8VVNg"
+  },
+  {
     "title": "Introducing matchingbrackets.com - The New Website For Matching Brackets",
     "thumbnail": "/assets/thumbnails/20260807.webp",
     "description": "Introducing matchingbrackets.com. The New Website for Matching Brackets. In this video, I'll take you on a tour of the new site, show you what's already available, explain why I built it the way I did, and share some of my plans for the future.",
