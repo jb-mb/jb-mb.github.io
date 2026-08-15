@@ -132,10 +132,14 @@ I’ve made a step-by-step videos showing the entire process.
 
 ## Related Matching Brackets Content
 
-    • Dual-Booting Linux Mint and Windows Together on one Computer
-    • Installing Linux Mint on my Computer
-    • How to Choose a Linux Distribution
-    • Testing Linux Before Installing it
-    • How to Back Up Your Computer Before Installing Linux
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=8kpNYJLBUoU&list=PLRniKHxSeXoaoOSFpAcUqgctXJ4C-pQfL&index=3" target="_blank">
+Dual-Booting Linux Mint and Windows Together on one Computer</a></li>
+    <li><a href="https://www.youtube.com/watch?v=G5LuYiVtDZI&list=PLRniKHxSeXoaoOSFpAcUqgctXJ4C-pQfL&index=4" target="_blank">
+Installing Linux Mint on my Computer</a></li>
+    <li><a href="https://youtu.be/vPuMgYN69nY" target="_blank">How to Choose a Linux Distribution</a></li>
+    <li><a href="https://youtu.be/-QviTEePnCs" target="_blank">Testing Linux Before Installing it</a></li>
+    <li><a href="https://youtu.be/Wy7rzlAevo0" target="_blank">How to Back Up Your Computer Before Installing Linux</a></li>
+</ul>
 
 That's going to be all from me for today. Until next time, take care.
