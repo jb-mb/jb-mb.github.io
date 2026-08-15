@@ -13,7 +13,7 @@ title: Blog
 
 <ul>
 
-{% for post in collections.all reversed %}
+{% for post in posts %}
 
 {% if post.data.tags contains "posts" %}
 
