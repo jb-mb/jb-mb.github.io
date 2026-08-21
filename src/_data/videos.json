@@ -1,5 +1,11 @@
 [
   {
+    "title": "Can Linux Replace Windows? The Truth About Switching",
+    "thumbnail": "/assets/thumbnails/20260821.jpg",
+    "description": "One of the biggest questions people ask is, 'Can Linux replace Windows?' The answer isn't as simple as yes or no—it depends on how you use your computer. We'll take an honest look at what Linux does well, where it still has compromises, and the questions you should ask yourself before making the switch.",
+    "url": "https://youtu.be/GK_lUuWeVz4"
+  },
+  {
     "title": "How to Create Windows Installation Media (Step-by-Step)",
     "thumbnail": "/assets/thumbnails/20260814.jpg",
     "description": "In this video, I'll show you how to create Windows installation media using Microsoft's Media Creation Tool. It's all well and good to talk about Linux, but what happens when things go wrong? What happens if there's some piece of hardware preventing you to switch?",
