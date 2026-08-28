@@ -1,5 +1,11 @@
 [
   {
+    "title": "A Beginner's Guide to Ventoy | Create One USB Drive for Multiple Operating Systems",
+    "thumbnail": "/assets/thumbnails/20260828.jpg",
+    "description": "Want to carry multiple operating systems on a single USB drive? In this beginner-friendly tutorial, I'll show you how to install Ventoy on Linux and create a bootable USB that can hold multiple ISO files at the same time.",
+    "url": "https://youtu.be/54NM9E9Mdro"
+  },
+  {
     "title": "Can Linux Replace Windows? The Truth About Switching",
     "thumbnail": "/assets/thumbnails/20260821.jpg",
     "description": "One of the biggest questions people ask is, 'Can Linux replace Windows?' The answer isn't as simple as yes or no—it depends on how you use your computer. We'll take an honest look at what Linux does well, where it still has compromises, and the questions you should ask yourself before making the switch.",
