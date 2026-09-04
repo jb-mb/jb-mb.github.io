@@ -1,5 +1,11 @@
 [
   {
+    "title": "Create a Linux Live Environment USB Flash Drive",
+    "thumbnail": "/assets/thumbnails/20260904.jpg",
+    "description": "Want to try Linux before installing it on your computer? In this video, I'll show you how to create a Linux Live USB Flash Drive and use it to test Linux on your computer before making any changes to your hard drive.",
+    "url": "https://youtu.be/mXXhDhhurk4"
+  },
+  {
     "title": "A Beginner's Guide to Ventoy | Create One USB Drive for Multiple Operating Systems",
     "thumbnail": "/assets/thumbnails/20260828.jpg",
     "description": "Want to carry multiple operating systems on a single USB drive? In this beginner-friendly tutorial, I'll show you how to install Ventoy on Linux and create a bootable USB that can hold multiple ISO files at the same time.",

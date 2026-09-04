@@ -40,19 +40,7 @@ Filling out the form that follows will end up in my email. Please be sure to inc
 
 ## YouTube
 
-Visit the <a href="https://www.youtube.com/@MatchingBrackets" target="_blank">Matching Brackets YouTube channel</a>. You can comment on any of my videos. I try very hard to answer everyone's comments. 
-
-## Bluesky
-
-I'll be brutally honest, I haven't been very present on <a href="https://bsky.app/profile/matchingbrackeets.bsky.social" target="_blank">Bluesky</a> in the past, but from now on this will change. If you'd like, join, follow, and feel free to send me a message over there. 
-
-## Mastodon
-
-Again, I've been neglecting my <a href="https://techhub.social/@matchingbrackets" target="_blank">Mastodon</a> account as well. But from now on this will change. If you'd like, join, follow, and feel free to send me a message over there. 
-
-## Reddit
-
-And it's the same, I'm afraid, for my account on Reddit. But I'll spend more time on social media, I promise. If you'd like, join, follow, and feel free to send me a message over there om  <a href="https://www.reddit.com/user/MatchingBrackets/" target="_blank">Reddit</a>. 
+Visit the <a href="https://www.youtube.com/@MatchingBrackets" target="_blank">Matching Brackets YouTube channel</a>. You can comment on any of my videos. I try very hard to answer everyone's comments.
 
 ## GitHub
 
