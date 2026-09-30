@@ -1,5 +1,11 @@
 [
   {
+    "title": "I Switch From Debian to Arch. Here's What Happened Part 1: Installation.",
+    "thumbnail": "/assets/thumbnails/20260925.jpg",
+    "description": "I switched from Debian to Arch Linux—and in this video, I'm taking you along for the ride. I've been using Debian and other beginner-friendly Linux distributions for a while, but I wanted to see what Arch Linux was actually like as a daily desktop operating system. In this video, I install Arch Linux using the official archinstall guided installer, connect to Wi-Fi from the terminal, choose my desktop environment, and get the system up and running..",
+    "url": "https://youtu.be/Agn403LPam8"
+  },
+  {
     "title": "Can I Bring My 13-year-old MacBook Back To Life with Linux?",
     "thumbnail": "/assets/thumbnails/20260918.jpg",
     "description": "Can a 13-year-old MacBook Pro still be useful in 2026? I don't know. Let's pop a Linux distro on it, and find out! In this video, I'm taking my 2013 MacBook Pro and replacing macOS with Linux to find out if I can give this old Mac a second life. My audience voted for ZorinOS as the next distro I should explore, so that's what we're installing. But rather than simply telling you whether ZorinOS is good or bad.  we're going to see what happens on this particular piece of hardware.",
