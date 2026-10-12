@@ -1,5 +1,11 @@
 [
   {
+    "title": "A Tour of Zorin OS | A Beginner's Guide",
+    "thumbnail": "/assets/thumbnails/20261009.jpg",
+    "description": "Thinking about trying Zorin OS, or have you just installed it and aren't quite sure where everything is? In this video, I'll give you a tour of Zorin OS and show you around the desktop, the Zorin Menu, Zorin Appearance, window tiling, workspaces, the file manager, Settings, and the Software store. Zorin OS is designed to make Linux approachable, especially for people coming from Windows or macOS. But there's more to it than simply looking familiar, and I'll show you some of the little features and customization options that make Zorin OS enjoyable to use.",
+    "url": "https://youtu.be/JjrG2Q5Y_CY"
+  },
+  {
     "title": "I Switch From Debian to Arch. Here's What Happened. Part 2 Customization",
     "thumbnail": "/assets/thumbnails/20261002.jpg",
     "description": "Now that Arch is installed and working, it's time to make it feel like my desktop. In this video, I experiment with customizing GNOME, installing extensions, changing the terminal, and creating keyboard shortcuts inspired by Omarchy. But I also discover something I didn't expect: customization can become a project all by itself.",
