@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Matching Brackets will be back the first of 2027!
 date: 2026-11-10
+image: /assets/img/blog/2026-11-10-01.jpg
+imageAlt: Holiday season banner for Matching Brackets
 tags:
   - posts
   - Linux

@@ -1,13 +1,67 @@
----
-layout: layouts/base.njk
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="/assets/fonts/adwaita-sans.css" rel="stylesheet">
+    <link href="/assets/fonts/ubuntu.css" rel="stylesheet">
+    <title>Matching Brackets {{ title }}</title>
+    <link rel="alternate" type="application/rss+xml" title="Matching Brackets RSS Feed" href="/feed.xml">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5NL6H8W8KT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5NL6H8W8KT');
+    </script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="logo"><a href="/" style="text-decoration: none;"><h1><span style="color: white;">[</span><span style="color: orange;">Matching </span><span style="color: blue;">Brackets</span><span style="color: white">]</span></h1></a></div>
+        <nav><ul>
+            <li><a href="/">Home</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/videos/">Videos</a></li><li><a href="/blog/">Blog</a></li><li><a href="/tags/">Tags</a></li><li><a href="/archives/">Archives</a></li><li><a href="/feed.xml">RSS</a></li>
+        </ul></nav>
+    </header>
 
-<article>
-    <h1>{{ title }}</h1>
+    <main class="journal-layout journal-post-layout">
+        <article class="journal-article">
+            <header class="article-heading">
+                <p class="eyebrow"><time datetime="{{ page.date | dateToRfc3339 }}">{{ page.date | dateDisplay }}</time></p>
+                <h1>{{ title }}</h1>
+                {% if tags %}<div class="article-tags">{% for tag in tags %}{% if tag != "posts" %}<a href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% endif %}{% endfor %}</div>{% endif %}
+            </header>
+            <div class="article-body">{{ content | safe }}</div>
+            <section class="related-posts">
+                <p class="eyebrow">Keep reading</p>
+                <h2>More from the journal</h2>
+                <ul>
+                    {%- for related in collections.posts | reverse %}
+                        {%- if related.url != page.url and loop.index <= 4 %}
+                        <li><a href="{{ related.url }}">{{ related.data.title }}</a></li>
+                        {%- endif %}
+                    {%- endfor %}
+                </ul>
+            </section>
+            <nav class="article-end-nav" aria-label="More from Matching Brackets">
+                <a href="/blog/">← Back to the journal</a>
+                <a href="/videos/">Explore the videos →</a>
+            </nav>
+        </article>
+        {% include "blog-sidebar.njk" %}
+    </main>
+    {% if tags and ("posts" in tags) %}{% include "giscus.njk" %}{% endif %}
 
-    {{ content | safe }}
-
-    {% if tags and ("posts" in tags) %}
-        {% include "giscus.njk" %}
-    {% endif %}
-</article>
+    <footer>
+        <div class="name">
+            <a href="/" style="text-decoration: none;"><h1><span style="color: white;">[</span><span style="color: orange;">Matching </span><span style="color: blue;">Brackets</span><span style="color: white">]</span></h1></a>
+            <h2>A beginner-friendly Linux <a href="https://www.youtube.com/@MatchingBrackets" target="_blank" rel="noopener noreferrer">YouTube</a> Channel</h2>
+            <p>&copy; 2026, Joe Belli. All rights reserved.</p>
+            <p>Made with &#x2764;&#xFE0F; from Atlanta, Georgia, USA</p>
+        </div>
+        <div class="links"><h2>Links</h2><p><a href="/">Home</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/videos/">Videos</a><a href="/blog/">Blog</a><a href="/tags/">Tags</a><a href="/archives/">Archives</a></p><p><a href="/feed.xml">RSS</a><a href="https://github.com/jb-mb" target="_blank" rel="noopener noreferrer">GitHub</a></p></div>
+    </footer>
+</div>
+</body>
+</html>

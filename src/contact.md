@@ -3,45 +3,36 @@ layout: layouts/base.njk
 title: Contact
 ---
 
-<div align="center">
-    <img src="/assets/img/abstract.jpg" style="width: 100%; height: 300px; background-position: cover; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
-</div>
+<main class="page-content contact-page">
+  <header class="page-heading">
+    <p class="eyebrow">Get in touch</p>
+    <h1>I’d love to hear from you.</h1>
+    <p class="page-deck">Have a video idea, a kind word, or a question about the site? Drop me a note.</p>
+  </header>
 
-## Contact
+  <div class="contact-layout">
+    <section class="contact-form-panel">
+      <h2>Send a message</h2>
+      <p>Share a suggestion for a future video or just say hello. I’m not set up to provide Linux troubleshooting, so I may not be able to respond to those requests.</p>
+      <form action="https://formspree.io/f/meebwebz" method="POST">
+        <label for="contact-name">Your name</label>
+        <input id="contact-name" type="text" name="name" autocomplete="name" required>
+        <label for="contact-email">Your email address</label>
+        <input id="contact-email" type="email" name="email" autocomplete="email" required>
+        <label for="contact-message">Your message</label>
+        <textarea id="contact-message" name="message" rows="6" required></textarea>
+        <button class="formbtn" type="submit">Send message</button>
+      </form>
+    </section>
 
-I'd love to hear from you!
-
-Whether you have a question, a suggestion for a future video, or just want to say hello, feel free to get in touch.
-
-## Email
-
-Filling out the form that follows will end up in my email. Please be sure to include your Name. your Email Address, and a Message if you'd like me to get back to you. I'm sorry, I'm not set up to do Linux troubleshooting at the moment. Those inquiries will be ignored.
-
-<form
-  action="https://formspree.io/f/meebwebz"
-  method="POST"
->
-
-  <label>
-    Your Name: <br>
-    <input type="text" name="name" required>
-  </label>
-  <label>
-    Your Email Address: <br>
-    <input type="email" name="email" required>
-  </label>
-  <label>
-    Your Message: <br>
-    <textarea name="message" rows="5" cols="30" required></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button class="formbtn" type="submit">Send</button>
-</form>
-
-## YouTube
-
-Visit the <a href="https://www.youtube.com/@MatchingBrackets" target="_blank">Matching Brackets YouTube channel</a>. You can comment on any of my videos. I try very hard to answer everyone's comments.
-
-## GitHub
-
-Ah, you've found my secret laboratory! No, I'm being silly. On <a href="https://github.com/jb-mb" target="_blank">GitHub</a> is where I publish our website for now, and where I include things like our business plan, and I hope to share some other goodies with you all pretty soon. If you'd like, join, follow, and feel free to send me a message over there.
+    <aside class="contact-links">
+      <img src="/assets/img/contact.jpg" alt="Two rotary telephones">
+      <h2>Find me elsewhere</h2>
+      <p>You can also leave a comment on a video or find the website’s source code on GitHub.</p>
+      <ul>
+        <li><a href="https://www.youtube.com/@MatchingBrackets" target="_blank" rel="noopener noreferrer">Matching Brackets on YouTube</a></li>
+        <li><a href="https://github.com/jb-mb" target="_blank" rel="noopener noreferrer">Matching Brackets on GitHub</a></li>
+      </ul>
+    </aside>
+  </div>
+</main>

@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: We've got a shout-out from another YouTube Channel
 date: 2026-07-18
+image: https://img.youtube.com/vi/Ijvrb-qwo58/hqdefault.jpg
+imageAlt: Thumbnail for the Linux Mench video embedded in this article
 tags:
   - posts
   - Linux

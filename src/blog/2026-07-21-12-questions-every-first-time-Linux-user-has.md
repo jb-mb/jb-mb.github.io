@@ -2,6 +2,8 @@
 layout: layouts/base.njk
 title: 12 Questions Every First Time Linux User Has
 date: 2026-07-21
+image: /assets/thumbnails/20260605.jpg
+imageAlt: Thumbnail for 12 Questions Every First-Time Linux User Has
 tags:
   - posts
   - Linux

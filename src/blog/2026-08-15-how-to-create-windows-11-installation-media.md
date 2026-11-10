@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: How to Create Windows 11 Installation Media Before Switching to Linux
 date: 2026-08-15
+image: /assets/thumbnails/20260814.jpg
+imageAlt: Windows 11 installation media
 tags:
   - posts
   - Linux
