@@ -1,6 +1,7 @@
-const { dateToRfc3339 } = require("@11ty/eleventy-plugin-rss");
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+
+  const { dateToRfc3339 } = await import("@11ty/eleventy-plugin-rss");
 
   eleventyConfig.addPassthroughCopy("src/assets");
 

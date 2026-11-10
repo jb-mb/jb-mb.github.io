@@ -1,5 +1,29 @@
 [
   {
+    "title": "I Just Installed ZorinOS. Now What...?",
+    "thumbnail": "/assets/thumbnails/20261113.jpg",
+    "description": "So, you've just installed ZorinOS... now what? In this video, we pick up right where the installation ends and take a look at some of the things you may want to do when you're starting with a fresh ZorinOS installation. We'll look at the welcome screen, install updates, check that our hardware is working, explore software installation, set up some useful applications, take a look at settings and customization, and talk about some of the things that may be different if you're coming from Windows.",
+    "url": "https://youtu.be/Zm2j390MUdg"
+  },
+  {
+    "title": "How To Remove Windows and Install ZorinOS | A Step-By-Step Guide For Beginners",
+    "thumbnail": "/assets/thumbnails/20261106.jpg",
+    "description": "Ready to remove Windows and give ZorinOS a try? In this video, I'll walk you through the complete process of replacing Windows with ZorinOS, step by step. We'll start by backing up important files, create the necessary installation media, install ZorinOS, and get the computer ready to use with a fresh Linux installation.",
+    "url": "https://youtu.be/KaAWhfYUJmI"
+  },
+  {
+    "title": "Dual-Booting Windows 11 + ZorinOS — Let's See What Happens | LIVE",
+    "thumbnail": "/assets/thumbnails/20261030.jpg",
+    "description": "What happens when you try to dual-boot ZorinOS and Windows 11? In this video, I'm going to find out. Rather than following a script or showing only the parts where everything goes according to plan, I'm going to document the process from beginning to end. I'll start in Windows 11, prepare the computer, boot from the ZorinOS USB, and see what happens when I try to install ZorinOS alongside Windows.",
+    "url": "https://youtu.be/y5jt8Zc-P4o"
+  },
+  {
+    "title": "I Switched From Debian to Arch - Here's What Happened | Part 3: The Final Result",
+    "thumbnail": "/assets/thumbnails/20261023.jpg",
+    "description": "This is Part 3 — and the final video — in my journey from Debian to Arch Linux. When I first switched to Arch, I wanted to create a desktop that had some of the look and feel of Omarchy. Unfortunately, I ended up making so many changes to GNOME that I eventually got lost in my own customizations! So I started over with a fresh Arch installation and vanilla GNOME.",
+    "url": "https://youtu.be/JJKQbJVD3dY"
+  },
+  {
     "title": "Apps That Come With ZorinOS",
     "thumbnail": "/assets/thumbnails/20261016.jpg",
     "description": "What apps come with ZorinOS when you first install it? In this video, we take a look at the collection of applications that come with ZorinOS right out of the box. From everyday tools like the Calculator, Calendar, Weather, and Text Editor to LibreOffice, Brave, Evolution, Rhythmbox, Remmina, and more, we'll take a tour of what you can expect to have available from the moment you start using ZorinOS.",
